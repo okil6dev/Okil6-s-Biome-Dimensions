@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "biome_dimensions:block/warm_ocean_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "biome_dimensions:block/warm_ocean_dimension_portal_ns"
+    }
+  }
+}
