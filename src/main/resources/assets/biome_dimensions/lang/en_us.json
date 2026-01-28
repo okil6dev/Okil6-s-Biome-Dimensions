@@ -1,5 +1,6 @@
 {
   "item.biome_dimensions.plains_dimension": "Plains Dimension Portal Igniter",
   "item.biome_dimensions.desert_dimension": "Desert Dimension Portal Igniter",
-  "item.biome_dimensions.warm_ocean_dimension": "Plains Dimension Portal Igniter"
+  "item.biome_dimensions.warm_ocean_dimension": "Warm Ocean Dimension Portal Igniter",
+  "item.biome_dimensions.lush_caves_dimension": "Lush Caves Dimension Portal Igniter"
 }

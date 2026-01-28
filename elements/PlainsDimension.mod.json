@@ -63,7 +63,7 @@
       }
     ],
     "texture": "plains_flint_and_steel",
-    "portalTexture": "minecraft:nether_portal",
+    "portalTexture": "plains_portal",
     "enablePortal": true
   }
 }

@@ -5,6 +5,7 @@ package net.okil.biomedimensions.init;
 
 import net.okil.biomedimensions.item.WarmOceanDimensionItem;
 import net.okil.biomedimensions.item.PlainsDimensionItem;
+import net.okil.biomedimensions.item.LushCavesDimensionItem;
 import net.okil.biomedimensions.item.DesertDimensionItem;
 import net.okil.biomedimensions.BiomeDimensionsMod;
 
@@ -18,10 +19,12 @@ public class BiomeDimensionsModItems {
 	public static final DeferredItem<Item> PLAINS_DIMENSION;
 	public static final DeferredItem<Item> DESERT_DIMENSION;
 	public static final DeferredItem<Item> WARM_OCEAN_DIMENSION;
+	public static final DeferredItem<Item> LUSH_CAVES_DIMENSION;
 	static {
 		PLAINS_DIMENSION = REGISTRY.register("plains_dimension", PlainsDimensionItem::new);
 		DESERT_DIMENSION = REGISTRY.register("desert_dimension", DesertDimensionItem::new);
 		WARM_OCEAN_DIMENSION = REGISTRY.register("warm_ocean_dimension", WarmOceanDimensionItem::new);
+		LUSH_CAVES_DIMENSION = REGISTRY.register("lush_caves_dimension", LushCavesDimensionItem::new);
 	}
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -7,13 +7,7 @@
     "group": "",
     "unlockingItems": [
       {
-        "value": "Items.FLINT_AND_STEEL"
-      },
-      {
-        "value": "Blocks.GRASS"
-      },
-      {
-        "value": "Blocks.DIRT"
+        "value": "Blocks.MOSS_BLOCK"
       }
     ],
     "cookingBookCategory": "MISC",
@@ -35,25 +29,25 @@
         "value": ""
       },
       {
-        "value": "Blocks.GRASS"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.MOSS_BLOCK"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.DIRT"
+        "value": "Blocks.MOSS_BLOCK"
       },
       {
         "value": "Items.FLINT_AND_STEEL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PlainsDimension"
+      "value": "CUSTOM:LushCavesDimension"
     },
-    "name": "plains_flint_and_steel_recipe",
+    "name": "lush_caves_flint_and_steel_recipe",
     "namespace": "mod"
   }
 }

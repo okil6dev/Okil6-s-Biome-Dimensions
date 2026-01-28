@@ -78,6 +78,67 @@
           "src/main/resources/data/biome_dimensions/dimension_type/warm_ocean_dimension.json"
         ]
       }
+    },
+    {
+      "name": "LushCavesDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lush_caves_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biome_dimensions/dimension_type/lush_caves_dimension.json",
+          "src/main/java/net/okil/biomedimensions/world/teleporter/LushCavesDimensionPortalShape.java",
+          "src/main/java/net/okil/biomedimensions/world/dimension/LushCavesDimensionDimension.java",
+          "src/main/resources/assets/biome_dimensions/models/block/lush_caves_dimension_portal_ns.json",
+          "src/main/java/net/okil/biomedimensions/world/teleporter/LushCavesDimensionTeleporter.java",
+          "src/main/resources/assets/biome_dimensions/blockstates/lush_caves_dimension_portal.json",
+          "src/main/java/net/okil/biomedimensions/block/LushCavesDimensionPortalBlock.java",
+          "src/main/java/net/okil/biomedimensions/item/LushCavesDimensionItem.java",
+          "src/main/resources/data/biome_dimensions/dimension/lush_caves_dimension.json",
+          "src/main/resources/assets/biome_dimensions/models/block/lush_caves_dimension_portal_ew.json",
+          "src/main/resources/assets/biome_dimensions/models/item/lush_caves_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "DesertFlintAndSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_flint_and_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biome_dimensions/advancement/recipes/desert_flint_and_steel_recipe.json",
+          "src/main/resources/data/biome_dimensions/recipe/desert_flint_and_steel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WarmOceanFlintAndSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warm_ocean_flint_and_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biome_dimensions/advancement/recipes/warm_ocean_flint_and_steel_recipe.json",
+          "src/main/resources/data/biome_dimensions/recipe/warm_ocean_flint_and_steel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LushCavesFlintAndSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lush_caves_flint_and_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/biome_dimensions/recipe/lush_caves_flint_and_steel_recipe.json",
+          "src/main/resources/data/biome_dimensions/advancement/recipes/lush_caves_flint_and_steel_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -95,7 +156,8 @@
     "en_us": {
       "item.biome_dimensions.plains_dimension": "Plains Dimension Portal Igniter",
       "item.biome_dimensions.desert_dimension": "Desert Dimension Portal Igniter",
-      "item.biome_dimensions.warm_ocean_dimension": "Plains Dimension Portal Igniter"
+      "item.biome_dimensions.warm_ocean_dimension": "Warm Ocean Dimension Portal Igniter",
+      "item.biome_dimensions.lush_caves_dimension": "Lush Caves Dimension Portal Igniter"
     }
   },
   "metadata": {
@@ -116,15 +178,18 @@
     "modid": "biome_dimensions",
     "modName": "Biome Dimensions",
     "version": "1.0.0",
-    "author": "MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "description": "Each Dimension Is A Biome!",
+    "author": "okil6",
+    "websiteURL": "https://github.com/okil6dev/Okil6-s-Biome-Dimensions",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "biome_dimensions_icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made by okil6",
     "modElementsPackage": "net.okil.biomedimensions"
   },
   "mcreatorVersion": 202500345720

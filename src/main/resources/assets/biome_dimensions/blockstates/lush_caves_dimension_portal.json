@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "biome_dimensions:block/lush_caves_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "biome_dimensions:block/lush_caves_dimension_portal_ns"
+    }
+  }
+}

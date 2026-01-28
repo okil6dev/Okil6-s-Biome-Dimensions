@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "biome_dimensions:block/plains_portal",
-    "portal": "biome_dimensions:block/plains_portal"
+    "particle": "biome_dimensions:block/lush_caves_portal",
+    "portal": "biome_dimensions:block/lush_caves_portal"
   },
   "elements": [
     {

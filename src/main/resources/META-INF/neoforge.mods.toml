@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="biome_dimensions"
 version="1.0.0"
 displayName="Biome Dimensions"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+displayURL="https://github.com/okil6dev/Okil6-s-Biome-Dimensions"
+logoFile="logo.png"
+credits="Made by okil6"
+authors="okil6"
+description="Each Dimension Is A Biome!"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

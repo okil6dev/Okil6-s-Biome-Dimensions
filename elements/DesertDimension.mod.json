@@ -63,7 +63,7 @@
       }
     ],
     "texture": "desert_flint_and_steel",
-    "portalTexture": "minecraft:nether_portal",
+    "portalTexture": "desert_portal",
     "enablePortal": true
   }
 }

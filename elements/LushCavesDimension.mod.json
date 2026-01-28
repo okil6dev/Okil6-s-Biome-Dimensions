@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "warm_ocean"
+        "value": "lush_caves"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -14,7 +14,7 @@
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
-    "seaLevel": 120,
+    "seaLevel": 0,
     "generateOreVeins": true,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
@@ -42,7 +42,7 @@
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
-      "value": "Blocks.CONCRETE#3"
+      "value": "Blocks.FLOWERING_AZALEA_LEAVES"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -52,7 +52,7 @@
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Warm Ocean Dimension Portal Igniter",
+    "igniterName": "Lush Caves Dimension Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -62,8 +62,8 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "warm_ocean_flint_and_steel",
-    "portalTexture": "warm_ocean_portal",
+    "texture": "lush_cave_flint_and_steel",
+    "portalTexture": "lush_caves_portal",
     "enablePortal": true
   }
 }

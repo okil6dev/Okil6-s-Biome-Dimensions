@@ -24,6 +24,7 @@ public class BiomeDimensionsModTabs {
 			tabData.accept(BiomeDimensionsModItems.PLAINS_DIMENSION.get());
 			tabData.accept(BiomeDimensionsModItems.DESERT_DIMENSION.get());
 			tabData.accept(BiomeDimensionsModItems.WARM_OCEAN_DIMENSION.get());
+			tabData.accept(BiomeDimensionsModItems.LUSH_CAVES_DIMENSION.get());
 		}
 	}
 }
